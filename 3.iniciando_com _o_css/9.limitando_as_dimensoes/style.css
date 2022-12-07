@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+}
+
+.article{
+	margin: 0 auto;
+	width: 1200px;
+	height: 10%;
+	min-height: 50% ;
+	background-color: red;
+}

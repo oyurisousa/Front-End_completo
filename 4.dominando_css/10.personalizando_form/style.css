@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+	background-color: #ccc;
+}
+
+
+form{
+	width: 96%;
+	max-width: 600px;
+	margin: 30px auto;
+	background-color: #E0AC69;
+	text-align: center;
+}
+
+form fieldset{
+	padding: 20px 40px;
+	border: 3px solid #401B07;
+}
+
+form legend{
+	font-size: 17px;
+	color: #401B07;
+}
+form input[type=text]{
+	display: inline-block;
+	margin-top: 30px;
+	width: 80%;
+	padding: 10px 30px;
+}
+
+form input[type=text]:focus, select:focus, form textarea:focus{
+	outline: 0;
+}
+
+form select{
+	width: 80%;
+	margin-top: 30px;
+	padding: 10px 13px;
+	color: #401B07;
+	display: inline-block;
+}
+
+form select option[disabled]{
+	background-color: #C68642;
+	color: #401B07;
+}
+
+form h2{
+	margin-top: 20px;
+	color: #401B07;
+}
+
+.input{
+	display: inline-block;
+	text-align: left;
+	margin-top: 20px;
+}
+
+.input span{
+	margin-left: 13px;
+	font-size: 16px;
+	color: #401B07;
+}
+
+form textarea{
+	display: inline-block;
+	margin-top: 30px;
+	width: 80%;
+	padding: 10px 30px;
+	border: 1px solid #401B07;
+}
+
+form input[type=submit]{
+	width: 140px;
+	height: 40px;
+	margin-top: 30px;
+	border: 2px solid #401B07;
+	font-size: 16px;
+	color: #E0AC69;
+	background-color: #5C3710;
+	cursor: pointer;
+}

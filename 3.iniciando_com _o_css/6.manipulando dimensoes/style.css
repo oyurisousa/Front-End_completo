@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	background-color: black;
+}
+
+.artigo{
+	width: 80%;
+	background-color: lightcoral;
+	margin: 0 auto;
+	margin-top: 50px;
+	border-radius: 20px;
+	border: 2px solid #058d89;
+	padding: 10px;
+}
+
+.artigo h1{
+	color: #058d89;
+	font-size: 27px;
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+}
+
+.artigo p{
+	color: #ccc;
+	text-align: justify;
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 30px;
+	margin-top: 12px;
+
+}

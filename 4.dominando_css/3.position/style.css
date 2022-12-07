@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+}
+
+
+.teste, .teste1, .teste2{
+	width: 300px;
+	margin-top: 30px;
+	height: 30px;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.teste1{
+	background-color: rgb(98, 98, 98);
+}
+.teste2{
+	background-color: rgb(50, 50, 50);
+}
+/*
+HOVER
+.teste:hover{
+	background-color: blue;
+	transition: 1.5s;
+
+}
+.teste:hover, body{
+	background-color: lightcoral;
+}
+*/
+
+/*
+ACTIVE
+.teste:active{
+	background-color: lightblue;
+}
+*/
+
+/*
+FOCUS
+.teste:focus{
+ 	background-color: lightcoral;
+}
+*/
+
+.link1:link{
+	color: pink;
+}
+
+.link1:visited{
+	color: blue;
+}
